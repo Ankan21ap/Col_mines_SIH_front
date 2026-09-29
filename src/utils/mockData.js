@@ -1,0 +1,92 @@
+/**
+ * Mock Data — Users, Mines, Subsidiaries for Demo/Dev
+ */
+
+export const MOCK_SUBSIDIARIES = [
+  { id: 'sub-a', name: 'Eastern Coal Subsidiary', code: 'ECS', state: 'Jharkhand', mineCount: 3, status: 'active', managerId: 'user-5' },
+  { id: 'sub-b', name: 'Northern Coal Subsidiary', code: 'NCS', state: 'Odisha', mineCount: 2, status: 'active', managerId: 'user-4' },
+  { id: 'sub-c', name: 'Central Coal Subsidiary', code: 'CCS', state: 'Chhattisgarh', mineCount: 2, status: 'active', managerId: 'user-1' },
+]
+
+export const MOCK_MINES = [
+  { id: 'mine-a1', name: 'Jharia Block A', mineId: 'JBA-001', type: 'Underground', state: 'Jharkhand', district: 'Dhanbad', subsidiaryId: 'sub-a', lat: 23.7681, lng: 86.4264, riskScore: 72, complianceRate: 68, status: 'active' },
+  { id: 'mine-a2', name: 'Bokaro North', mineId: 'BKN-002', type: 'Open Cast', state: 'Jharkhand', district: 'Bokaro', subsidiaryId: 'sub-a', lat: 23.6693, lng: 85.9651, riskScore: 45, complianceRate: 84, status: 'active' },
+  { id: 'mine-a3', name: 'Dhanbad East', mineId: 'DBE-003', type: 'Underground', state: 'Jharkhand', district: 'Dhanbad', subsidiaryId: 'sub-a', lat: 23.8087, lng: 86.4582, riskScore: 88, complianceRate: 52, status: 'active' },
+  { id: 'mine-b1', name: 'Talcher Central', mineId: 'TLC-004', type: 'Open Cast', state: 'Odisha', district: 'Angul', subsidiaryId: 'sub-b', lat: 20.9502, lng: 85.2295, riskScore: 55, complianceRate: 79, status: 'active' },
+  { id: 'mine-b2', name: 'Ib Valley South', mineId: 'IVS-005', type: 'Underground', state: 'Odisha', district: 'Jharsuguda', subsidiaryId: 'sub-b', lat: 21.8553, lng: 84.0347, riskScore: 33, complianceRate: 91, status: 'active' },
+  { id: 'mine-c1', name: 'Korba Block B', mineId: 'KBB-006', type: 'Open Cast', state: 'Chhattisgarh', district: 'Korba', subsidiaryId: 'sub-c', lat: 22.3595, lng: 82.7501, riskScore: 61, complianceRate: 76, status: 'active' },
+  { id: 'mine-c2', name: 'Surguja Deep', mineId: 'SGD-007', type: 'Underground', state: 'Chhattisgarh', district: 'Surguja', subsidiaryId: 'sub-c', lat: 23.1068, lng: 83.2162, riskScore: 79, complianceRate: 63, status: 'maintenance' },
+]
+
+export const DEMO_USERS = [
+  {
+    id: 'user-1',
+    name: 'Arjun Verma',
+    email: 'admin@coalcorp.in',
+    employeeId: 'EMP-001',
+    phone: '+91 9876543210',
+    role: 'system_admin',
+    subsidiary: null,
+    assignedMines: [],
+    status: 'active',
+    lastLogin: '2026-08-27T18:30:00Z',
+    avatar: 'AV',
+    department: 'IT Administration',
+  },
+  {
+    id: 'user-2',
+    name: 'Rahul Sharma',
+    email: 'inspector@coalcorp.in',
+    employeeId: 'EMP-042',
+    phone: '+91 9865432101',
+    role: 'field_inspector',
+    subsidiary: 'sub-a',
+    assignedMines: ['mine-a1', 'mine-a2'],
+    status: 'active',
+    lastLogin: '2026-08-27T10:15:00Z',
+    avatar: 'RS',
+    department: 'Field Operations',
+  },
+  {
+    id: 'user-3',
+    name: 'Priya Nair',
+    email: 'safety@coalcorp.in',
+    employeeId: 'EMP-018',
+    phone: '+91 9754321098',
+    role: 'safety_officer',
+    subsidiary: 'sub-a',
+    assignedMines: ['mine-a1', 'mine-a2', 'mine-a3'],
+    status: 'active',
+    lastLogin: '2026-08-27T09:00:00Z',
+    avatar: 'PN',
+    department: 'Safety & Compliance',
+  },
+  {
+    id: 'user-4',
+    name: 'Suresh Kumar',
+    email: 'manager@coalcorp.in',
+    employeeId: 'EMP-007',
+    phone: '+91 9643210987',
+    role: 'mine_manager',
+    subsidiary: 'sub-b',
+    assignedMines: ['mine-b1'],
+    status: 'active',
+    lastLogin: '2026-08-26T16:45:00Z',
+    avatar: 'SK',
+    department: 'Mine Operations',
+  },
+  {
+    id: 'user-5',
+    name: 'Ananya Singh',
+    email: 'corporate.reg@coalcorp.in',
+    employeeId: 'EMP-CR-001',
+    phone: '+91 9532109876',
+    role: 'corporate_regulatory_officer',
+    subsidiary: null,
+    assignedMines: [],
+    status: 'active',
+    lastLogin: '2026-08-29T08:00:00Z',
+    avatar: 'AS',
+    department: 'Corporate Governance & Statutory Oversight',
+  },
+]

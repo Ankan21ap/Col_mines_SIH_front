@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 260" fill="none">
+  <!-- Ashoka Lion Capital Emblem -->
+  <!-- Base platform -->
+  <rect x="60" y="220" width="160" height="10" rx="3" fill="#1a1a1a"/>
+  <rect x="50" y="210" width="180" height="12" rx="3" fill="#2a2a2a"/>
+
+  <!-- Ashoka Chakra (Dharma Wheel) -->
+  <circle cx="140" cy="195" r="22" stroke="#1a1a1a" stroke-width="3.5" fill="none"/>
+  <circle cx="140" cy="195" r="5" fill="#1a1a1a"/>
+  <!-- 24 spokes -->
+  <line x1="140" y1="195" x2="140" y2="173" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="149" y2="174" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="157" y2="178" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="162" y2="186" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="162" y2="195" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="162" y2="204" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="157" y2="212" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="149" y2="216" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="140" y2="217" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="131" y2="216" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="123" y2="212" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="118" y2="204" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="118" y2="195" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="118" y2="186" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="123" y2="178" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="140" y1="195" x2="131" y2="174" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <!-- Horse left -->
+  <ellipse cx="88" cy="198" rx="14" ry="9" fill="#1a1a1a"/>
+  <path d="M80 192 C76 188 74 192 76 198 C78 204 86 206 92 202 C98 198 96 190 88 192" fill="#1a1a1a"/>
+
+  <!-- Bull right -->
+  <ellipse cx="192" cy="198" rx="14" ry="9" fill="#1a1a1a"/>
+  <path d="M200 192 C204 188 206 192 204 198 C202 204 194 206 188 202 C182 198 184 190 192 192" fill="#1a1a1a"/>
+
+  <!-- Abacus drum -->
+  <rect x="58" y="165" width="164" height="16" rx="4" fill="#1a1a1a"/>
+
+  <!-- Lions body (center lion) -->
+  <path d="M130 60 C128 52 130 44 140 40 C150 44 152 52 150 60 C156 64 160 72 158 82 C155 94 148 102 140 106 C132 102 125 94 122 82 C120 72 124 64 130 60Z" fill="#1a1a1a"/>
+
+  <!-- Left lion -->
+  <path d="M96 72 C88 68 82 76 84 88 C86 100 96 108 108 112 C104 122 108 134 118 140" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="90" cy="78" rx="10" ry="12" fill="#1a1a1a"/>
+
+  <!-- Right lion -->
+  <path d="M184 72 C192 68 198 76 196 88 C194 100 184 108 172 112 C176 122 172 134 162 140" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="190" cy="78" rx="10" ry="12" fill="#1a1a1a"/>
+
+  <!-- Back lion head (slightly visible) -->
+  <ellipse cx="140" cy="52" rx="18" ry="20" fill="#1a1a1a"/>
+  <!-- Crown/mane of lions -->
+  <path d="M108 60 C114 52 128 46 140 44 C152 46 166 52 172 60 C166 70 155 76 140 78 C125 76 114 70 108 60Z" fill="#333"/>
+  <ellipse cx="140" cy="52" rx="14" ry="16" fill="#1a1a1a"/>
+
+  <!-- Satyameva Jayate text -->
+  <text x="140" y="248" text-anchor="middle" font-size="11" font-family="serif" font-weight="bold" fill="#1a1a1a" letter-spacing="1">सत्यमेव जयते</text>
+
+  <!-- Divider line -->
+  <line x1="260" y1="20" x2="260" y2="240" stroke="#ddd" stroke-width="1.5"/>
+
+  <!-- Hindi text: कोयला मंत्रालय -->
+  <text x="290" y="95" font-size="32" font-family="sans-serif" font-weight="bold" fill="#1a1a1a" letter-spacing="1">कोयला मंत्रालय</text>
+
+  <!-- MINISTRY OF text -->
+  <text x="290" y="155" font-size="40" font-family="Arial, sans-serif" font-weight="bold" fill="#1a1a1a" letter-spacing="2">MINISTRY OF</text>
+
+  <!-- COAL text -->
+  <text x="290" y="210" font-size="58" font-family="Arial, sans-serif" font-weight="900" fill="#1a1a1a" letter-spacing="4">COAL</text>
+</svg>
